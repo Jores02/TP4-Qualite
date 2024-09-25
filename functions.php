@@ -1,6 +1,5 @@
 <?php
 // functions.php
-
 function isValidRecipe(array $recipe) : bool
 {
     if (array_key_exists('is_enabled', $recipe)) {
